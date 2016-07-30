@@ -1,0 +1,20 @@
+/*! \mainpage USP/ART Visual odometry package
+ * 
+ * \htmlinclude manifest.html
+ *
+ * \section intro_sec Introduction
+ *
+ * Hello! We are glad you get here. This package is under development. 
+ * It aims to provide robust vision based solutions for the problem of pose estimation for UAVs - mostly hovercraft - using visual odometry techniques.
+ *
+ * Aerial Robot Team (USP/EESC) develops this package.
+ * \section reference Reference
+ * The current algorithm developed is based on the following paper:
+ *
+ * Daniel Eberli, Davide Scaramuzza, Stephan Weiss, and Roland Siegwart. 2011. Vision Based Position Control for MAVs Using One Single Circular Landmark.
+ * J. Intell. Robotics Syst. 61, 1-4 (January 2011), 495-512. 
+ */
+ 
+
+
+

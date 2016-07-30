@@ -1,0 +1,15 @@
+threshold: 100
+landmark_diagonal: 0.144
+
+# Landmark classification
+min_score: 7
+
+# Base descriptor parameters
+base_shape: 0.778665
+base_area: 1.00015
+base_hu: [0.16258, 0.00110712, 2.55601e-07, 2.93278e-09, -1.91215e-17, -2.70364e-11, 8.20421e-18 ]
+
+# (Similarity) range descriptor parameters
+range_shape: 0.220397
+range_area: 0.00012403
+range_hu: [0.00342022, 0.00110711, 2.5478e-07, 2.93278e-09, 1.59566e-16, 1.48212e-10, 2.02462e-16 ]

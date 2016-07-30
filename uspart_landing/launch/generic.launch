@@ -1,0 +1,15 @@
+<launch>
+    <!-- image_proc node. It publishes undistorted (rectified) image -->
+	<node name="rectifier" pkg="image_proc" type="image_proc" ns="camera" />    
+    
+	<!-- Launching node for VO algorithm -->
+    <node name="generic" pkg="uspart_landing" type="generic" output="screen" >
+    <rosparam file="$(find uspart_landing)/params/h_modified.yaml" />
+    <!-- Remapping topics -->
+        <remap from="camera/image_raw"  	to="/camera/image_mono"/>
+        <remap from="camera/camera_info"	to="/camera/camera_info"/>
+    </node>
+
+    <node name="image_visualizer" pkg="rqt_image_view" type="rqt_image_view" output="screen" />
+    <node name="rviz_node" pkg="rviz" type="rviz" />
+</launch>

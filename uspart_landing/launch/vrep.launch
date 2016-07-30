@@ -1,0 +1,18 @@
+<launch>
+	<!-- Launching node for VO algorithm -->
+    <node name="rectifier" pkg="image_proc" type="image_proc" ns="/vrep/floor_camera" />
+    
+    <node name="circular" pkg="uspart_landing" type="circular" output="screen" >
+    <rosparam file="$(find uspart_landing)/params/circular.yaml" />
+    <!-- Remapping topics -->
+    <remap from="camera/image_raw"  	to="/vrep/floor_camera/image_mono"/>
+    <remap from="camera/camera_info"	to="/vrep/floor_camera/camera_info"/>
+    </node>
+
+    <!-- Launching conversion from odometry to IMU -->
+    <node name="odomToIMU" pkg="conversion" type="odomToIMU_node" output="screen">
+    <remap from="/odometry" to="/vrep/quadrotor/camera/odometry" />
+    <remap from="/imu" to="/imu" />
+    </node>
+
+</launch>

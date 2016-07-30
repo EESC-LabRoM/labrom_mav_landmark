@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>uspart_viso_odom</name>
+  <version>0.0.2</version>
+  <description>The uspart_viso_odom package</description>
+
+  <maintainer email="romulortr@usp.br">EESC - Aerial Robot Team (ART)</maintainer>
+ 
+  <license>GPL</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/uspart_landing_pose</url> -->
+
+
+  <author email="romulortr@usp.br">Romulo T Rodrigues</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+   <build_depend>nav_msgs</build_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+   <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

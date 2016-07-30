@@ -1,0 +1,12 @@
+<launch>
+	<!-- Launching node for VO algorithm -->
+    <node name="circular" pkg="uspart_landing" type="circular" output="screen" >
+    <rosparam file="$(find uspart_landing)/params/circular.yaml" />
+    <!-- Remapping topics -->
+    <remap from="/camera/image_raw"  	to="/downward/camera/image_raw"/>
+    <remap from="/camera/camera_info"	to="/downward/camera/camera_info"/>
+    </node>
+
+    <node name="image_visualizer" pkg="rqt_image_view" type="rqt_image_view" output="screen" />
+    <node name="rviz_node" pkg="rviz" type="rviz" />
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+	<!-- Launching node for learning algorithm -->
+    <node name="learn" pkg="uspart_landing" type="learn" output="screen" >
+         <param name="threshold" value="100" />
+         <param name="duration" value="30" />
+    </node>
+
+    <node name="image_visualizer" pkg="rqt_image_view" type="rqt_image_view" output="screen" />
+
+</launch>

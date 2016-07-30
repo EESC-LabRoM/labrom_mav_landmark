@@ -1,0 +1,28 @@
+inertial_frame_id: landmark
+threshold: 100
+rot_x: 0
+rot_y: 180
+rot_z: -45
+landmark_diagonal: 0.214337678
+
+
+# Landmark classification
+min_score: 8
+
+# Base descriptor parameters
+base_shape: 0.616993
+base_area: 3.0455
+base_hu: [0.499884, 0.01616 ,0.00110975, 0.00711258, 3.24382e-05, 0.00101118, 6.394e-06 ]
+
+# (Similarity) range descriptor parameters
+range_shape: 0.085714
+range_area: 0.557364
+range_hu: [0.0927352, 0.00973805, 0.00104464, 0.00555053, 3.20354e-05, 0.000870512, 8.36465e-06 ]
+
+#base_shape: 0.438977
+#base_area: 3.14742
+#base_hu: [0.533153, 0.0578065, 0.0081749, 0.022326, 0.000287605, 0.00339424, 8.32004e-05 ]
+
+#range_shape: 0.200452
+#range_area: 0.596819
+#range_hu: [0.0834848, 0.0454461, 0.00726219, 0.0149814, 0.000273126, 0.00250164, 0.000107346 ]

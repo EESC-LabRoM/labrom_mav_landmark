@@ -1,0 +1,21 @@
+actions: []
+authors: ''
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- catkin
+- eigen
+- sensor_msgs
+- uspart_viso_odom
+- geometry_msgs
+- tf
+- roscpp
+description: The uspart_landing package
+license: TODO
+maintainers: art <art@todo.todo>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''
