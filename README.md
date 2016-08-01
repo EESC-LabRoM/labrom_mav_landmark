@@ -6,6 +6,6 @@
 * **uspart_landing**: Package that contains pose estimation techniques based on landmarks.
  
 ### Suplementary material
-* **uspart_viso_odom**: [Documentation](www.labrom.eesc.usp.br/doxygen/viso_odom/html)
-* **uspart_viso_odom**: [Documentation](www.labrom.eesc.usp.br/doxygen/landing/html) 
+* **uspart_viso_odom**: [Documentation](http://www.labrom.eesc.usp.br/doxygen/viso_odom/html)
+* **uspart_viso_odom**: [Documentation](http://www.labrom.eesc.usp.br/doxygen/landing/html) 
 	
