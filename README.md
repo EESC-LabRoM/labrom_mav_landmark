@@ -1,3 +1,6 @@
+# [This repo is going to be removed]
+new address: https://bitbucket.org/grupomecatronica/labrom_mav_landmark/src/master/
+
 # LabRoM MAV vision-based perception package
 **Summary**: ROS package that contains vison-based solutions for estimating the pose of micro aerial vehicles (MAV).
 ### **Important**: Feel free to contribute.
